@@ -1,0 +1,1256 @@
+{
+"id": "FF49C010-3749-07BE-8F02-6A16FA9F62C3",
+"fps": 60,
+"resolution": {
+"width": 1920,
+"heigth": 1080
+},
+"fonts": {
+"font1": "Montserrat Extrabold",
+"font2": "Montserrat Regular"
+},
+"colors": {
+"color1": "FFFFFF",
+"color2": "2B7DA5",
+"color3": "0E0E0E",
+"color4": "141414",
+"color5": "000000"
+},
+"template": "Modèle_1",
+"music": "music_1.mp3",
+"thumbnail": "thumbnail.jpg",
+"sequences": {
+"sequence_intro": {
+"from": 0,
+"duration": 300,
+"elements": {
+"element_1": {
+"id": "sequence_intro-footage1",
+"type": "footage",
+"from": 0,
+"duration": 300,
+"url": "video_ville.mp4",
+"style": {
+"width": 1920,
+"height": 1080
+}
+},
+"element_2": {
+"id": "sequence_intro-sprite1",
+"type": "sprite",
+"from": 0,
+"duration": 300,
+"style": {
+"backgroundColor": "color1",
+"opacity": 0.5,
+"width": 1920,
+"height": 1080
+}
+},
+"element_3": {
+"id": "sequence_intro-logo1",
+"type": "picture",
+"from": 0,
+"duration": 300,
+"url": "agence_immo.jpg",
+"style": {
+"width": 300,
+"height": 300
+},
+"parentStyle": {
+"alignItems": "center",
+"justifyContent": "center",
+"width": 1920,
+"height": 1080
+}
+}
+}
+},
+"sequence_1": {
+"from": 180,
+"duration": 600,
+"elements": {
+"element_1": {
+"id": "sequence_1-sprite1",
+"type": "sprite",
+"from": 0,
+"duration": 600,
+"style": {
+"background-color": "color1",
+"width": 1280,
+"height": 1080,
+"left": -1280,
+"top": 0
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": -1280,
+"top": 0
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 120
+}
+}
+},
+"element_2": {
+"id": "sequence_1-sprite2",
+"type": "sprite",
+"from": 0,
+"duration": 600,
+"style": {
+"background-color": "color2",
+"opacity": 0.5,
+"width": 640,
+"height": 1080,
+"left": 1920,
+"top": 0
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1920,
+"top": 0
+},
+"end": {
+"left": 1280,
+"top": 0
+},
+"from": 0,
+"duration": 120
+}
+}
+},
+"element_3": {
+"id": "sequence_1-mask1",
+"type": "mask",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 1980,
+"height": 600
+},
+"contents": {
+"content_1": {
+"id": "sequence_1-picture1",
+"type": "picture",
+"from": 0,
+"duration": 600,
+"url": "photo1.jpg",
+"style": {
+"width": "100%",
+"height": "auto"
+}
+}
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": -1920,
+"top": 0
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 120,
+"easing": "ease"
+},
+"animation_2": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": 0,
+"top": 0
+},
+"end": {
+"left": 1280,
+"top": 0
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+},
+"animation_3": {
+"type": "resize",
+"start": {
+"width": 1920,
+"height": 600
+},
+"end": {
+"width": 600,
+"height": 600
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_4": {
+"id": "sequence_1-text1",
+"type": "text",
+"from": 120,
+"duration": 600,
+"value": "VENTE MAISON",
+"style": {
+"fontFamily": "font1",
+"fondSize": 60,
+"color": "color3",
+"textAlign": "center",
+"left": 1280,
+"top": 380
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1280,
+"top": 0
+},
+"end": {
+"left": 680,
+"top": 0
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_5": {
+"id": "sequence_1-text2",
+"type": "text",
+"from": 150,
+"duration": 600,
+"value": "126m2",
+"style": {
+"fontFamily": "font1",
+"fondSize": 160,
+"color": "color2",
+"textAlign": "center",
+"left": 1280,
+"top": 460
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1280,
+"top": 0
+},
+"end": {
+"left": 680,
+"top": 0
+},
+"from": 150,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_6": {
+"id": "sequence_1-text2",
+"type": "text",
+"from": 150,
+"duration": 600,
+"value": "Ref.155465",
+"style": {
+"fontFamily": "font2",
+"fondSize": 30,
+"color": "color4",
+"textAlign": "center",
+"left": 1280,
+"top": 560
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1280,
+"top": 0
+},
+"end": {
+"left": 680,
+"top": 0
+},
+"from": 150,
+"duration": 120,
+"easing": "ease"
+}
+}
+}
+}
+},
+"sequence_2": {
+"from": 480,
+"duration": 600,
+"elements": {
+"element_1": {
+"id": "sequence_2-sprite1",
+"type": "sprite",
+"color": "color2",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 640,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": -640,
+"top": 0
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_2": {
+"id": "sequence_2-sprite2",
+"type": "sprite",
+"color": "color1",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 1280,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1920,
+"top": 0
+},
+"end": {
+"left": 640,
+"top": 0
+},
+"from": 0,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_3": {
+"id": "sequence_2-mask1",
+"type": "mask",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 1980,
+"height": 600
+},
+"contents": {
+"content_1": {
+"id": "picture2",
+"type": "picture",
+"from": 0,
+"duration": 600,
+"url": "photo2.jpg",
+"style": {
+"width": "100%",
+"height": "auto"
+}
+}
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1920,
+"top": 0
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 120,
+"easing": "ease"
+},
+"animation_2": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1280,
+"top": 0
+},
+"end": {
+"left": 640,
+"top": 0
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+},
+"animation_3": {
+"type": "resize",
+"start": {
+"width": 1920,
+"height": 600
+},
+"end": {
+"width": 600,
+"height": 600
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_4": {
+"id": "sequence_2-text1",
+"type": "text",
+"from": 150,
+"duration": 600,
+"value": "6 pièces",
+"style": {
+"fontFamily": "font1",
+"fondSize": 160,
+"color": "color2",
+"textAlign": "center",
+"left": 640,
+"top": 460
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 640,
+"top": 0
+},
+"end": {
+"left": 1280,
+"top": 0
+},
+"from": 150,
+"duration": 120,
+"easing": "ease"
+}
+}
+}
+}
+},
+"sequence_3": {
+"from": 780,
+"duration": 600,
+"elements": {
+"element_1": {
+"id": "sequence_3-sprite1",
+"type": "sprite",
+"color": "color1",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 1280,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": -1280,
+"top": 0
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 120
+}
+}
+},
+"element_2": {
+"id": "sequence_3-sprite2",
+"type": "sprite",
+"color": "color2",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 640,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1920,
+"top": 0
+},
+"end": {
+"left": 1280,
+"top": 0
+},
+"from": 0,
+"duration": 120
+}
+}
+},
+"element_3": {
+"id": "sequence_3-mask1",
+"type": "mask",
+"from": 0,
+"duration": 600,
+"style": {
+"alignItems": "center",
+"justifyContent": "center",
+"width": 0,
+"height": 600
+},
+"contents": {
+"content_1": {
+"id": "sequence_3-picture1",
+"type": "picture",
+"from": 0,
+"duration": 600,
+"url": "photo3.jpg",
+"width": "100%",
+"height": "auto"
+}
+},
+"animations": {
+"animation_1": {
+"type": "resize",
+"start": {
+"width": 0,
+"height": 600
+},
+"end": {
+"width": 1800,
+"height": 600
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+},
+"animation_2": {
+"type": "resize",
+"start": {
+"width": 1800,
+"height": 600
+},
+"end": {
+"width": 860,
+"height": 860
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+}
+}
+}
+}
+},
+"sequence_4": {
+"from": 1080,
+"duration": 600,
+"elements": {
+"element_1": {
+"id": "sequence_4-sprite1",
+"type": "sprite",
+"color": "color2",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 640,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": -640,
+"top": 0
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_2": {
+"id": "sequence_4-sprite2",
+"type": "sprite",
+"color": "color1",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 1280,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1920,
+"top": 0
+},
+"end": {
+"left": 640,
+"top": 0
+},
+"from": 0,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_3": {
+"id": "sequence_4-mask1",
+"type": "mask",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 1980,
+"height": 600
+},
+"contents": {
+"content_1": {
+"id": "sequence_4-picture1",
+"type": "picture",
+"from": 0,
+"duration": 600,
+"url": "photo4.jpg",
+"width": "100%",
+"height": "auto"
+}
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1920,
+"top": 0
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 120,
+"easing": "ease"
+},
+"animation_2": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1280,
+"top": 0
+},
+"end": {
+"left": 640,
+"top": 0
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+},
+"animation_3": {
+"type": "resize",
+"start": {
+"width": 1920,
+"height": 600
+},
+"end": {
+"width": 600,
+"height": 600
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_4": {
+"id": "sequence_4-text1",
+"type": "text",
+"from": 150,
+"duration": 600,
+"value": "390 000 €",
+"style": {
+"fontFamily": "font1",
+"fondSize": 160,
+"textAlign": "center",
+"textColor": "color2",
+"left": 640,
+"top": 460
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 640,
+"top": 0
+},
+"end": {
+"left": 1280,
+"top": 0
+},
+"from": 150,
+"duration": 120,
+"easing": "ease"
+}
+}
+}
+}
+},
+"sequence_energy": {
+"from": 1380,
+"duration": 900,
+"elements": {
+"element_1": {
+"id": "sequence_energy-sprite1",
+"type": "sprite",
+"from": 0,
+"duration": 720,
+"color": "color1",
+"style": {
+"width": 1920,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toBottom",
+"start": {
+"left": 0,
+"top": -1080
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 60,
+"easing": "ease"
+}
+}
+},
+"element_2": {
+"id": "sequence_energy-mask1",
+"type": "mask",
+"from": 0,
+"duration": 720,
+"style": {
+"width": 1800,
+"height": 600
+},
+"contents": {
+"content_1": {
+"id": "sequence_energy-footage",
+"type": "footage",
+"from": 0,
+"duration": 600,
+"url": "energy.mp4",
+"contentStyle": {
+"width": "100%",
+"height": "auto"
+}
+}
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1920,
+"top": 120
+},
+"end": {
+"left": 60,
+"top": 120
+},
+"from": 0,
+"duration": 120,
+"easing": "ease"
+},
+"animation_2": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 60,
+"top": 120
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+},
+"animation_3": {
+"type": "resize",
+"start": {
+"width": 1800,
+"height": 600
+},
+"end": {
+"width": 1920,
+"height": 1080
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_3": {
+"id": "sequence_energy-picture1",
+"type": "picture",
+"from": 0,
+"duration": 720,
+"url": "dpe.jpg",
+"style": {
+"width": 300,
+"height": 300
+},
+"parentStyle": {
+"alignItems": "center",
+"justifyContent": "center",
+"width": 1920,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toBottom",
+"start": {
+"left": 0,
+"top": -1080
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 60,
+"easing": "ease"
+}
+}
+}
+}
+},
+"sequence_geoloc": {
+"from": 1920,
+"duration": 600,
+"elements": {
+"element_1": {
+"id": "sequence_geoloc-picture1",
+"type": "picture",
+"from": 0,
+"duration": 600,
+"url": "https://api.jawg.io/static?zoom=12&center=43.460833,6.692840,&size=1929x1080&layer=jawg-streets&format=png&access-token=Mwytw2rI46PmH0nl36j9Q5cpJDAC9WAAT5ZRLLrFARc2V9DaEkiJ8dPDIVC28FhI",
+"style": {
+"width": 1920,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toBottom",
+"start": {
+"left": 0,
+"top": -1080
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_2": {
+"id": "sequence_geoloc-picture2",
+"type": "picture",
+"from": 0,
+"duration": 600,
+"url": "pin.png",
+"style": {
+"width": 100,
+"height": 100
+},
+"parentStyle": {
+"alignItems": "center",
+"justifyContent": "center",
+"width": 1920,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toBottom",
+"start": {
+"left": 0,
+"top": -1080
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 60,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_3": {
+"id": "sequence_geoloc-sprite1",
+"type": "sprite",
+"color": "color1",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 640,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1920,
+"top": 0
+},
+"end": {
+"left": 1280,
+"top": 0
+},
+"from": 0,
+"duration": 120
+}
+}
+},
+"element_4": {
+"id": "sequence_geoloc-text1",
+"type": "text",
+"from": 120,
+"duration": 600,
+"value": "Localisation",
+"style": {
+"fontFamily": "font1",
+"fontSize": 60,
+"textAlign": "center",
+"textColor": "color3",
+"left": 1280,
+"top": 400
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": 1280,
+"top": 400
+},
+"end": {
+"left": 1400,
+"top": 400
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_5": {
+"id": "sequence_geoloc-text2",
+"type": "text",
+"from": 120,
+"duration": 600,
+"value": "Maubeuge",
+"style": {
+"fontFamily": "font1",
+"fontSize": 60,
+"textAlign": "center",
+"textColor": "color3",
+"left": 1280,
+"top": 520
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": 1280,
+"top": 520
+},
+"end": {
+"left": 1400,
+"top": 520
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+}
+}
+}
+}
+},
+"sequence_outro": {
+"from": 2280,
+"duration": 600,
+"elements": {
+"element_1": {
+"id": "sequence_outro-sprite1",
+"type": "sprite",
+"color": "color1",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 1280,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": -1280,
+"top": 0
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 120
+}
+}
+},
+"element_2": {
+"id": "sequence_outro-sprite2",
+"type": "sprite",
+"color": "color2",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 640,
+"height": 1080
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1920,
+"top": 0
+},
+"end": {
+"left": 1280,
+"top": 0
+},
+"from": 0,
+"duration": 120
+}
+}
+},
+"element_3": {
+"id": "sequence_outro-mask1",
+"type": "mask",
+"from": 0,
+"duration": 600,
+"style": {
+"width": 1980,
+"height": 600
+},
+"contents": {
+"content_1": {
+"id": "sequence_outro-picture1",
+"type": "picture",
+"from": 0,
+"duration": 600,
+"url": "photo1.jpg",
+"width": "100%",
+"height": "auto"
+}
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": -1920,
+"top": 0
+},
+"end": {
+"left": 0,
+"top": 0
+},
+"from": 0,
+"duration": 120,
+"easing": "ease"
+},
+"animation_2": {
+"type": "translate",
+"direction": "toRight",
+"start": {
+"left": 0,
+"top": 0
+},
+"end": {
+"left": 1280,
+"top": 0
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+},
+"animation_3": {
+"type": "resize",
+"start": {
+"width": 1920,
+"height": 600
+},
+"end": {
+"width": 600,
+"height": 600
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_4": {
+"id": "sequence_outro-text1",
+"type": "text",
+"from": 120,
+"duration": 600,
+"value": "Interessé par ce bien ?",
+"style": {
+"font": "font1",
+"fontSize": 60,
+"textAlign": "center",
+"textColor": "color5",
+"left": 1280,
+"top": 380
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1280,
+"top": 0
+},
+"end": {
+"left": 680,
+"top": 0
+},
+"from": 120,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_5": {
+"id": "sequence_outro-text2",
+"type": "text",
+"from": 150,
+"duration": 600,
+"value": "126m2",
+"style": {
+"fontFamily": "font1",
+"fontSize": 160,
+"textAlign": "center",
+"textColor": "color2",
+"left": 1280,
+"top": 460
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1280,
+"top": 0
+},
+"end": {
+"left": 680,
+"top": 0
+},
+"from": 150,
+"duration": 120,
+"easing": "ease"
+}
+}
+},
+"element_6": {
+"id": "sequence_outro-text2",
+"type": "text",
+"from": 150,
+"duration": 600,
+"value": "Ref.155465",
+"style": {
+"fontFamily": "font2",
+"fontSize": 30,
+"textAlign": "center",
+"textColor": "color4",
+"left": 1280,
+"top": 560
+},
+"animations": {
+"animation_1": {
+"type": "translate",
+"direction": "toLeft",
+"start": {
+"left": 1280,
+"top": 0
+},
+"end": {
+"left": 680,
+"top": 0
+},
+"from": 150,
+"duration": 120,
+"easing": "ease"
+}
+}
+}
+}
+}
+}
+}
